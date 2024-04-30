@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "recipe-website"
+description = "The project “Recipe Website” on Django"
+authors = ["igor_pont <pontigor11@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.4"
+python-dotenv = "^1.0.1"
+psycopg2-binary = "^2.9.9"
+pillow = "^10.3.0"
+django-widget-tweaks = "^1.5.0"
+django-bootstrap4 = "^24.3"
+django-crispy-forms = "^3.8.1"
+crispy-bootstrap4 = "^2024.1"
+django-appconf = "^1.0.6"
+django-imagekit = "^5.0.0"
+pilkit = "^3.0"
+fastapi = "^0.110.3"
+uvicorn = "^0.29.0"
+sqlalchemy = "^2.0.29"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
