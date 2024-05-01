@@ -41,7 +41,8 @@ pip install poetry
 
 Клонируйте репозиторий "recipe_website":
 
-git clone https://github.com/yourusername/recipe_website.git
+git clone 
+
 cd recipe_website
 
 Создайте виртуальное окружение и установите зависимости:
